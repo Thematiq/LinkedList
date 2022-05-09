@@ -15,6 +15,8 @@
 
 #include <stddef.h>
 
+namespace OriginalLinkedList {
+
 template<class T>
 struct ListNode
 {
@@ -414,6 +416,7 @@ ListNode<T>* LinkedList<T>::findEndOfSortedString(ListNode<T> *p, int (*cmp)(T &
 	}
 	
 	return p;
+}
 }
 
 #endif
